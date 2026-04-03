@@ -1,0 +1,81 @@
+**Simple Calculator Program in Python**
+======================================
+
+### Description
+
+This program creates a simple calculator that performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
+
+### Code
+```python
+# Define a function for each operation
+def add(x, y):
+    """Return the sum of x and y"""
+    return x + y
+
+def subtract(x, y):
+    """Return the difference of x and y"""
+    return x - y
+
+def multiply(x, y):
+    """Return the product of x and y"""
+    return x * y
+
+def divide(x, y):
+    """Return the quotient of x and y"""
+    if y == 0:
+        raise ZeroDivisionError("Cannot divide by zero")
+    return x / y
+
+# Main program
+def calculator():
+    print("Simple Calculator")
+    print("1. Addition")
+    print("2. Subtraction")
+    print("3. Multiplication")
+    print("4. Division")
+    print("5. Quit")
+
+    while True:
+        choice = input("Enter your choice (1/2/3/4/5): ")
+
+        if choice == "5":
+            print("Goodbye!")
+            break
+
+        elif choice in ("1", "2", "3", "4"):
+            num1 = float(input("Enter first number: "))
+            num2 = float(input("Enter second number: "))
+
+            if choice == "1":
+                print(f"{num1} + {num2} = {add(num1, num2)}")
+            elif choice == "2":
+                print(f"{num1} - {num2} = {subtract(num1, num2)}")
+            elif choice == "3":
+                print(f"{num1} * {num2} = {multiply(num1, num2)}")
+            elif choice == "4":
+                try:
+                    print(f"{num1} / {num2} = {divide(num1, num2)}")
+                except ZeroDivisionError as e:
+                    print(str(e))
+
+        else:
+            print("Invalid choice. Please try again.")
+
+# Run the calculator program
+if __name__ == "__main__":
+    calculator()
+```
+
+### Example Use Cases
+
+1. Run the program and select option 1 (Addition) to add two numbers.
+2. Run the program and select option 2 (Subtraction) to subtract one number from another.
+3. Run the program and select option 3 (Multiplication) to multiply two numbers.
+4. Run the program and select option 4 (Division) to divide one number by another.
+5. Run the program and select option 5 (Quit) to exit the program.
+
+### Notes
+
+* This program uses a simple `while` loop to repeatedly prompt the user for input until they choose to quit.
+* The program uses `float` to allow for decimal numbers.
+* The program uses `try`-`except` to handle division by zero errors.

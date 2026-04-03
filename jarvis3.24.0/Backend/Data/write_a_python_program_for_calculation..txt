@@ -1,0 +1,76 @@
+**Calculator Program in Python**
+=====================================
+
+This program provides a simple calculator that can perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+
+**Code**
+--------
+
+```python
+def add(x, y):
+    """Return the sum of x and y"""
+    return x + y
+
+def subtract(x, y):
+    """Return the difference of x and y"""
+    return x - y
+
+def multiply(x, y):
+    """Return the product of x and y"""
+    return x * y
+
+def divide(x, y):
+    """Return the quotient of x and y"""
+    if y == 0:
+        raise ZeroDivisionError("Cannot divide by zero")
+    return x / y
+
+def calculator():
+    print("Simple Calculator")
+    print("1. Addition")
+    print("2. Subtraction")
+    print("3. Multiplication")
+    print("4. Division")
+
+    while True:
+        choice = input("Enter your choice (1/2/3/4): ")
+        if choice in ['1', '2', '3', '4']:
+            num1 = float(input("Enter first number: "))
+            num2 = float(input("Enter second number: "))
+
+            if choice == '1':
+                print(f"{num1} + {num2} = {add(num1, num2)}")
+            elif choice == '2':
+                print(f"{num1} - {num2} = {subtract(num1, num2)}")
+            elif choice == '3':
+                print(f"{num1} * {num2} = {multiply(num1, num2)}")
+            elif choice == '4':
+                try:
+                    print(f"{num1} / {num2} = {divide(num1, num2)}")
+                except ZeroDivisionError as e:
+                    print(str(e))
+        else:
+            print("Invalid choice. Please try again.")
+
+        cont = input("Do you want to continue? (yes/no): ")
+        if cont.lower() != 'yes':
+            break
+
+if __name__ == "__main__":
+    calculator()
+```
+
+**Example Use Cases**
+--------------------
+
+1. Run the program and select an operation (e.g., addition).
+2. Enter two numbers and see the result.
+3. Choose to continue or exit the program.
+
+**Notes**
+-------
+
+* This program uses a simple menu-driven interface to perform calculations.
+* It includes basic error handling for division by zero.
+* The program uses functions to organize the code and make it reusable.
+* The `calculator` function serves as the main entry point for the program.

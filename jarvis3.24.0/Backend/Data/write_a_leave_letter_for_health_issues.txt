@@ -1,0 +1,33 @@
+[Your Name]
+[Your Address]
+[City, State, PIN]
+[Date]
+
+[Recipient's Name]
+[Recipient's Title]
+[Company/Organization Name]
+[Company/Organization Address]
+[City, State, PIN]
+
+Subject: Application for Leave due to Health Issues
+
+Dear [Recipient's Name],
+
+I am writing to inform you that, unfortunately, I am currently facing some health issues that require my immediate attention. Due to this, I will be unable to attend work for the next [number] of days.
+
+I have been experiencing [briefly mention your health issue, e.g., severe fever, back pain, etc.] and my doctor has advised me to take complete rest and undergo treatment for the same. I am currently under medical care and am expected to make a full recovery, but I need to take this time off to ensure that I can return to work at full capacity as soon as possible.
+
+I apologize for any inconvenience this may cause and will make sure to catch up on any missed work as soon as I am able to return. I will provide a medical certificate from my doctor, if required, to validate my leave.
+
+The details of my leave are as follows:
+- Leave dates: [start date] to [end date]
+- Number of days: [number] days
+
+I would appreciate it if you could approve my leave application. If there's any additional information you need from me, please let me know.
+
+Thank you for your understanding and support during this time. If you have any questions or concerns, please do not hesitate to reach out to me.
+
+Sincerely,
+
+[Your Signature]
+[Your Name]

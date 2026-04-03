@@ -1,0 +1,144 @@
+**Python Program for Various Data Types**
+=============================================
+
+### Introduction
+
+This program demonstrates the use of various data types in Python, including integers, floats, strings, lists, tuples, dictionaries, and sets.
+
+### Code
+
+```python
+# Integer Data Type
+print("Integer Data Type:")
+int_num = 10
+print("Integer Value:", int_num)
+print("Type:", type(int_num))
+
+# Float Data Type
+print("\nFloat Data Type:")
+float_num = 10.5
+print("Float Value:", float_num)
+print("Type:", type(float_num))
+
+# String Data Type
+print("\nString Data Type:")
+str_value = "Hello, World!"
+print("String Value:", str_value)
+print("Type:", type(str_value))
+
+# List Data Type
+print("\nList Data Type:")
+list_values = [1, 2, 3, 4, 5]
+print("List Values:", list_values)
+print("Type:", type(list_values))
+print("Accessing List Elements:")
+print("First Element:", list_values[0])
+print("Last Element:", list_values[-1])
+
+# Tuple Data Type
+print("\nTuple Data Type:")
+tuple_values = (1, 2, 3, 4, 5)
+print("Tuple Values:", tuple_values)
+print("Type:", type(tuple_values))
+print("Accessing Tuple Elements:")
+print("First Element:", tuple_values[0])
+print("Last Element:", tuple_values[-1])
+
+# Dictionary Data Type
+print("\nDictionary Data Type:")
+dict_values = {"name": "John", "age": 30}
+print("Dictionary Values:", dict_values)
+print("Type:", type(dict_values))
+print("Accessing Dictionary Elements:")
+print("Name:", dict_values["name"])
+print("Age:", dict_values["age"])
+
+# Set Data Type
+print("\nSet Data Type:")
+set_values = {1, 2, 3, 4, 5}
+print("Set Values:", set_values)
+print("Type:", type(set_values))
+print("Checking Set Membership:")
+print("Is 3 in the set?", 3 in set_values)
+print("Is 6 in the set?", 6 in set_values)
+
+# Boolean Data Type
+print("\nBoolean Data Type:")
+bool_value = True
+print("Boolean Value:", bool_value)
+print("Type:", type(bool_value))
+
+# Complex Data Type
+print("\nComplex Data Type:")
+complex_value = 3 + 4j
+print("Complex Value:", complex_value)
+print("Type:", type(complex_value))
+```
+
+### Output
+
+```
+Integer Data Type:
+Integer Value: 10
+Type: <class 'int'>
+
+Float Data Type:
+Float Value: 10.5
+Type: <class 'float'>
+
+String Data Type:
+String Value: Hello, World!
+Type: <class 'str'>
+
+List Data Type:
+List Values: [1, 2, 3, 4, 5]
+Type: <class 'list'>
+Accessing List Elements:
+First Element: 1
+Last Element: 5
+
+Tuple Data Type:
+Tuple Values: (1, 2, 3, 4, 5)
+Type: <class 'tuple'>
+Accessing Tuple Elements:
+First Element: 1
+Last Element: 5
+
+Dictionary Data Type:
+Dictionary Values: {'name': 'John', 'age': 30}
+Type: <class 'dict'>
+Accessing Dictionary Elements:
+Name: John
+Age: 30
+
+Set Data Type:
+Set Values: {1, 2, 3, 4, 5}
+Type: <class 'set'>
+Checking Set Membership:
+Is 3 in the set? True
+Is 6 in the set? False
+
+Boolean Data Type:
+Boolean Value: True
+Type: <class 'bool'>
+
+Complex Data Type:
+Complex Value: (3+4j)
+Type: <class 'complex'>
+```
+
+### Explanation
+
+This program demonstrates the use of various data types in Python, including:
+
+*   Integers (`int`): whole numbers, e.g., `10`.
+*   Floats (`float`): decimal numbers, e.g., `10.5`.
+*   Strings (`str`): sequences of characters, e.g., `"Hello, World!"`.
+*   Lists (`list`): ordered collections of values, e.g., `[1, 2, 3, 4, 5]`.
+*   Tuples (`tuple`): ordered, immutable collections of values, e.g., `(1, 2, 3, 4, 5)`.
+*   Dictionaries (`dict`): unordered collections of key-value pairs, e.g., `{"name": "John", "age": 30}`.
+*   Sets (`set`): unordered collections of unique values, e.g., `{1, 2, 3, 4, 5}`.
+*   Boolean (`bool`): logical values, e.g., `True` or `False`.
+*   Complex (`complex`): numbers with real and imaginary parts, e.g., `3 + 4j`.
+
+The program showcases the creation, access, and manipulation of these data types, as well as their respective types and characteristics.
